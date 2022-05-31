@@ -29,6 +29,11 @@ ul{
     background-color: #252525;
     opacity: .75;
     background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 .header-wrapper{
     display: flex;
@@ -52,4 +57,40 @@ ul{
 }
 .color{
     color:#34C759 ;
+}
+.main_offer{
+    background-image: url(/assets/images/main_offer.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+    /* padding: 139px 150px 185px 150px; */
+    padding: 130px 0 185px 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.main_offer-wrapper_text-title{
+    margin-bottom: 60px;
+}
+.main_offer-wrapper_text-desc{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 145px;
+    justify-content: center;
+    color: white;
+   
+}
+.text-desc_hours-title{
+    font-family: 'Alegreya' serif;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.hours-icon{
+    margin-bottom: 16px;
+}
+.text-desc_hour-explain{
+    opacity: .50;
+    text-transform: uppercase;
 }
