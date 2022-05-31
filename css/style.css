@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Alegreya:wght@400;500;700&family=Montserrat:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1440px;
+}
+.container{
+    max-width: 1200px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+h1{
+    font-family: 'Alegreya' sans-serif;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 72px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+ul{
+    list-style: none;
+}
+.header{
+    background-color: #252525;
+    opacity: .75;
+    background-size: cover;
+}
+.header-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 397px;
+    padding: 27px 164px 37px 164px;
+}
+.nav-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    margin-top: 13px;
+}
+.header-wrapper_logo-link{
+    font-family: 'Alegreya' sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 14px;
+    color: #34C759;
+}
+.color{
+    color:#34C759 ;
+}
