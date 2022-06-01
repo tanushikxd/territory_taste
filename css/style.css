@@ -5,6 +5,7 @@
 }
 body{
     max-width: 1440px;
+    background-color: #1A1A1A;
 }
 .container{
     max-width: 1200px;
@@ -92,7 +93,6 @@ header{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-
 }
 .main_offer-wrapper_text-title{
     margin-bottom: 60px;
@@ -132,17 +132,26 @@ header{
 }
 .business-wrapper{
     width: 100%;
-    height: 582px;
+    height: 600px;
     background: linear-gradient(180deg, #1A1A1A 0%, #2C2C2C 100%);
     position: absolute;
     top: 0;
     left: 0;
     transform: translateY(-50%);
-}
-.business-items{
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.business-items_item-name{
+    color: white;
+    padding-top: 12px;
+}
+.business-items_item-name_desc{
+    color: #737373;
+    border-bottom: 2px solid #34C759;
+    padding-bottom: 12px;
 }
 .business-title{
     width: 100%;
@@ -151,6 +160,106 @@ header{
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
-    padding: 40px 458px 80px 458px;
+    padding-left: 458px;
+    padding-top: 40px;
     
 }
+.business-pic{
+    height: 307px;
+}
+
+
+/* Business end */
+
+
+/* Information start */
+
+
+.information{
+    height: 626px;
+    margin-bottom: 61px;
+}
+.information-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 172px;
+    justify-content: center;
+    padding-top: 380px;
+    text-align: center;
+}
+.information-icon_desc{
+    color: white;
+}
+.information-img_pic{
+    margin-bottom: 20px;
+}
+
+/* Infornation end */
+
+
+/* Sladers start */
+
+
+.sladers-wrapper{
+    background-image: url(../assets/images/food-3309418_1920\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 554px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 179px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.sladers-wrapper::after{
+    content: '';
+    width: 75px;
+    height: 15px;
+    background-image: url(../assets/icons/slader.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+}
+.sladers-info{
+    max-width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 508px;
+}
+.sladers-title{
+    margin-bottom: 40px;
+    color: #34C759;
+}
+.sladers-desc{
+   color: white;
+   margin-bottom: 60px;
+}
+.sladers-btn{
+    padding: 9px 47px;
+    background-color: transparent;
+    border-radius: 100px;
+    width: 160px;
+    height: 32px;
+    border: 2px solid #34C759;
+    padding: 9px 47px;
+}
+.sladers-btn:hover, .sladers-btn:focus{
+    transform: scale(1.1);
+}
+.sladers-btn_link{
+    color: #34C759;
+}
+.sladers-arrow:hover, .sladers-arrow:focus{
+    cursor: pointer;
+    opacity: .75;
+    transform: scale(.90);
+}
+
+
+/* Sladers end */
