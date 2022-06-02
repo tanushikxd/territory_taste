@@ -278,6 +278,7 @@ header{
 .calendar-title{
     margin-bottom: 82px;
     position: relative;
+    color: white;
 }
 .calendar-title::after{
     display: block;
