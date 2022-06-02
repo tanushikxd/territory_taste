@@ -271,8 +271,9 @@ header{
 .calendar-wrapper{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     height: 542px;
+    justify-content: center;
+    margin-bottom: 82px;
 }
 .calendar-title{
     margin-bottom: 82px;
@@ -328,9 +329,67 @@ header{
     width: 690px;
     height: 151px;
     padding: 20px 38px 0 20px;
-    transform: translateY(-150%);
+    transform: translateY(-180%);
 }
 .event-link{
     color: #34C759;
-    margin-right: 0 auto ;
+}
+.calendar-event_link{
+    margin-left: 500px;
+    transform: translateY(-350%);
+}
+
+
+/* Calendar end */
+
+
+/* Best start */
+
+.best{
+    margin-bottom: 80px;
+}
+.best-wrapper{
+    max-width: 1014px;
+    margin: 0 auto;
+}
+.best-title{
+    text-align: center;
+    margin-bottom: 82px;
+    font-size: 36px;
+    color: white;
+}
+.best-title::after{
+    display: block;
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: #34C759;
+    position: absolute;
+    border: 0;
+    left: 47%;
+    transform: translateY(20px);
+}
+.best-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 126px;
+    justify-content: space-between;
+}
+.best-card_title{
+    font-family: 'Alegreya';
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 3px;
+}
+.best-card_desc{
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+}
+.best-card_pic{
+    margin-bottom: 24px;
+    padding-left: 20%;
 }
