@@ -83,7 +83,7 @@ header{
 
 
 .main_offer{
-    background-image: url(/assets/images/main_offer.png);
+    background-image: url(../assets/images/main_offer.png);
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
@@ -263,3 +263,74 @@ header{
 
 
 /* Sladers end */
+
+
+/* Calendar start */
+
+
+.calendar-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 542px;
+}
+.calendar-title{
+    margin-bottom: 82px;
+    position: relative;
+}
+.calendar-title::after{
+    display: block;
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: #34C759;
+    position: absolute;
+    border: 0;
+    left: 40%;
+    transform: translateY(20px);
+}
+.calendar-sections{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 31px;
+    justify-content: flex-end;
+    
+}
+.calendar-event{
+    border: 1px solid transparent;
+    background-color: #252525;
+    width: 690px;
+    height: 151px;
+    padding: 20px 38px 0 20px;
+
+}
+.calendar-hour, .calendar-hour-2{
+    margin-bottom: 12px;
+    color: #B3B3B3;
+}
+.event-title, .event-title-2{
+    margin-bottom: 8px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Alegreya' sans-serif;
+    font-size: 18px;
+}
+.event-desc, .event-desc-2{
+    color: white;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+}
+.calendar-event-2{
+    background-image: url(../assets/images/food-3309418_1920\ 1.jpg);
+    opacity: .75;
+    background-repeat: no-repeat;
+    width: 690px;
+    height: 151px;
+    padding: 20px 38px 0 20px;
+    transform: translateY(-150%);
+}
+.event-link{
+    color: #34C759;
+    margin-right: 0 auto ;
+}
